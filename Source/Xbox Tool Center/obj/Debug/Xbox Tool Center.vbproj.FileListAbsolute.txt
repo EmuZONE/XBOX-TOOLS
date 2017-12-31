@@ -1,0 +1,13 @@
+c:\users\yggdraz1l\documents\visual studio 2013\Projects\Xbox Tool Center\Xbox Tool Center\bin\Debug\Xbox Tool Center.exe.config
+c:\users\yggdraz1l\documents\visual studio 2013\Projects\Xbox Tool Center\Xbox Tool Center\bin\Debug\Xbox Tool Center.exe
+c:\users\yggdraz1l\documents\visual studio 2013\Projects\Xbox Tool Center\Xbox Tool Center\bin\Debug\Xbox Tool Center.pdb
+c:\users\yggdraz1l\documents\visual studio 2013\Projects\Xbox Tool Center\Xbox Tool Center\bin\Debug\Xbox Tool Center.xml
+c:\users\yggdraz1l\documents\visual studio 2013\Projects\Xbox Tool Center\Xbox Tool Center\obj\Debug\Xbox_Tool_Center.ClassicJobs.resources
+c:\users\yggdraz1l\documents\visual studio 2013\Projects\Xbox Tool Center\Xbox Tool Center\obj\Debug\Xbox_Tool_Center.Classic_GOD.resources
+c:\users\yggdraz1l\documents\visual studio 2013\Projects\Xbox Tool Center\Xbox Tool Center\obj\Debug\Xbox_Tool_Center.Main.resources
+c:\users\yggdraz1l\documents\visual studio 2013\Projects\Xbox Tool Center\Xbox Tool Center\obj\Debug\Xbox_Tool_Center.Resources.resources
+c:\users\yggdraz1l\documents\visual studio 2013\Projects\Xbox Tool Center\Xbox Tool Center\obj\Debug\Xbox Tool Center.vbproj.GenerateResource.Cache
+c:\users\yggdraz1l\documents\visual studio 2013\Projects\Xbox Tool Center\Xbox Tool Center\obj\Debug\Xbox Tool Center.exe
+c:\users\yggdraz1l\documents\visual studio 2013\Projects\Xbox Tool Center\Xbox Tool Center\obj\Debug\Xbox Tool Center.xml
+c:\users\yggdraz1l\documents\visual studio 2013\Projects\Xbox Tool Center\Xbox Tool Center\obj\Debug\Xbox Tool Center.pdb
+c:\users\yggdraz1l\documents\visual studio 2013\Projects\Xbox Tool Center\Xbox Tool Center\obj\Debug\Xbox_Tool_Center.Edit_360.resources
