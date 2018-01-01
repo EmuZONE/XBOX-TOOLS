@@ -24,7 +24,7 @@
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Try
-            Process.Start("Data\360\ImageBrowser\Xbox Image Browser.exe")
+            Process.Start("Data\360\ImageBrowser\ImageBrowser.exe")
         Catch ex As Exception
             MsgBox("Die angeforderte Datei konnte nicht gefunden werden. Eventuell verhindert ein Antiv Viren Programm den start.")
         End Try
@@ -36,5 +36,14 @@
         Catch ex As Exception
             MsgBox("Die angeforderte Datei konnte nicht gefunden werden. Eventuell verhindert ein Antiv Viren Programm den start.")
         End Try
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        _360SaveEdit.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        Flash.Show()
     End Sub
 End Class

@@ -37,9 +37,17 @@ Partial Class Main
         Me.SystemUpdatingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolboxToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Xbox360ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ImageBrowserToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.XboxClassicToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.XboxOneToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExtrasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Xbox360FlashenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.X360DVDKeyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BootUSBErstellenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FirmwareDBToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OriginalFirmwareToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CustomFirmwareLoaderToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FlashToolsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HilfeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.InfoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ÜberToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -61,7 +69,6 @@ Partial Class Main
         Me.Button1 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.ImageBrowserToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
@@ -164,27 +171,77 @@ Partial Class Main
         '
         Me.Xbox360ToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ImageBrowserToolStripMenuItem})
         Me.Xbox360ToolStripMenuItem1.Name = "Xbox360ToolStripMenuItem1"
-        Me.Xbox360ToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.Xbox360ToolStripMenuItem1.Size = New System.Drawing.Size(139, 22)
         Me.Xbox360ToolStripMenuItem1.Text = "Xbox360"
+        '
+        'ImageBrowserToolStripMenuItem
+        '
+        Me.ImageBrowserToolStripMenuItem.Name = "ImageBrowserToolStripMenuItem"
+        Me.ImageBrowserToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ImageBrowserToolStripMenuItem.Text = "Image Browser"
         '
         'XboxClassicToolStripMenuItem1
         '
         Me.XboxClassicToolStripMenuItem1.Name = "XboxClassicToolStripMenuItem1"
-        Me.XboxClassicToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.XboxClassicToolStripMenuItem1.Size = New System.Drawing.Size(139, 22)
         Me.XboxClassicToolStripMenuItem1.Text = "Xbox Classic"
         '
         'XboxOneToolStripMenuItem
         '
         Me.XboxOneToolStripMenuItem.Name = "XboxOneToolStripMenuItem"
-        Me.XboxOneToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.XboxOneToolStripMenuItem.Size = New System.Drawing.Size(139, 22)
         Me.XboxOneToolStripMenuItem.Text = "Xbox One"
         '
         'ExtrasToolStripMenuItem
         '
+        Me.ExtrasToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Xbox360FlashenToolStripMenuItem, Me.X360DVDKeyToolStripMenuItem, Me.BootUSBErstellenToolStripMenuItem, Me.FirmwareDBToolStripMenuItem, Me.FlashToolsToolStripMenuItem})
         Me.ExtrasToolStripMenuItem.ForeColor = System.Drawing.Color.White
         Me.ExtrasToolStripMenuItem.Name = "ExtrasToolStripMenuItem"
         Me.ExtrasToolStripMenuItem.Size = New System.Drawing.Size(49, 20)
         Me.ExtrasToolStripMenuItem.Text = "Extras"
+        '
+        'Xbox360FlashenToolStripMenuItem
+        '
+        Me.Xbox360FlashenToolStripMenuItem.Name = "Xbox360FlashenToolStripMenuItem"
+        Me.Xbox360FlashenToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
+        Me.Xbox360FlashenToolStripMenuItem.Text = "Xbox360 Flashen"
+        '
+        'X360DVDKeyToolStripMenuItem
+        '
+        Me.X360DVDKeyToolStripMenuItem.Name = "X360DVDKeyToolStripMenuItem"
+        Me.X360DVDKeyToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
+        Me.X360DVDKeyToolStripMenuItem.Text = "x360 DVD Key"
+        '
+        'BootUSBErstellenToolStripMenuItem
+        '
+        Me.BootUSBErstellenToolStripMenuItem.Name = "BootUSBErstellenToolStripMenuItem"
+        Me.BootUSBErstellenToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
+        Me.BootUSBErstellenToolStripMenuItem.Text = "BootUSB Erstellen"
+        '
+        'FirmwareDBToolStripMenuItem
+        '
+        Me.FirmwareDBToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OriginalFirmwareToolStripMenuItem, Me.CustomFirmwareLoaderToolStripMenuItem})
+        Me.FirmwareDBToolStripMenuItem.Name = "FirmwareDBToolStripMenuItem"
+        Me.FirmwareDBToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
+        Me.FirmwareDBToolStripMenuItem.Text = "Firmware DB"
+        '
+        'OriginalFirmwareToolStripMenuItem
+        '
+        Me.OriginalFirmwareToolStripMenuItem.Name = "OriginalFirmwareToolStripMenuItem"
+        Me.OriginalFirmwareToolStripMenuItem.Size = New System.Drawing.Size(207, 22)
+        Me.OriginalFirmwareToolStripMenuItem.Text = "Original Firmware"
+        '
+        'CustomFirmwareLoaderToolStripMenuItem
+        '
+        Me.CustomFirmwareLoaderToolStripMenuItem.Name = "CustomFirmwareLoaderToolStripMenuItem"
+        Me.CustomFirmwareLoaderToolStripMenuItem.Size = New System.Drawing.Size(207, 22)
+        Me.CustomFirmwareLoaderToolStripMenuItem.Text = "Custom Firmware Loader"
+        '
+        'FlashToolsToolStripMenuItem
+        '
+        Me.FlashToolsToolStripMenuItem.Name = "FlashToolsToolStripMenuItem"
+        Me.FlashToolsToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
+        Me.FlashToolsToolStripMenuItem.Text = "Flash Tools"
         '
         'HilfeToolStripMenuItem
         '
@@ -316,7 +373,7 @@ Partial Class Main
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(133, 23)
         Me.Button7.TabIndex = 10
-        Me.Button7.Text = "Sonstiges"
+        Me.Button7.Text = "NAND FLASH"
         Me.Button7.UseVisualStyleBackColor = True
         '
         'Button6
@@ -400,12 +457,6 @@ Partial Class Main
         Me.PictureBox3.TabIndex = 6
         Me.PictureBox3.TabStop = False
         '
-        'ImageBrowserToolStripMenuItem
-        '
-        Me.ImageBrowserToolStripMenuItem.Name = "ImageBrowserToolStripMenuItem"
-        Me.ImageBrowserToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.ImageBrowserToolStripMenuItem.Text = "Image Browser"
-        '
         'Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -476,5 +527,12 @@ Partial Class Main
     Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
     Friend WithEvents Button12 As System.Windows.Forms.Button
     Friend WithEvents ImageBrowserToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents Xbox360FlashenToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents X360DVDKeyToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents BootUSBErstellenToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents FirmwareDBToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents OriginalFirmwareToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CustomFirmwareLoaderToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents FlashToolsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 
 End Class

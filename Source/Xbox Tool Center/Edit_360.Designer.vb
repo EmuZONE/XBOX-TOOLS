@@ -25,12 +25,12 @@ Partial Class Edit_360
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Edit_360))
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -59,45 +59,15 @@ Partial Class Edit_360
         Me.Panel1.Size = New System.Drawing.Size(163, 210)
         Me.Panel1.TabIndex = 1
         '
-        'Button2
+        'Button7
         '
-        Me.Button2.ForeColor = System.Drawing.Color.Black
-        Me.Button2.Location = New System.Drawing.Point(16, 18)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(126, 23)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Avatar Content Edit"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.ForeColor = System.Drawing.Color.Black
-        Me.Button3.Location = New System.Drawing.Point(16, 47)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(126, 23)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Profil Editor"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.ForeColor = System.Drawing.Color.Black
-        Me.Button4.Location = New System.Drawing.Point(16, 76)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(126, 23)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Savegame Editoren"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Button5
-        '
-        Me.Button5.ForeColor = System.Drawing.Color.Black
-        Me.Button5.Location = New System.Drawing.Point(16, 105)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(126, 23)
-        Me.Button5.TabIndex = 4
-        Me.Button5.Text = "System Edit"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.Button7.ForeColor = System.Drawing.Color.Black
+        Me.Button7.Location = New System.Drawing.Point(16, 163)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(126, 23)
+        Me.Button7.TabIndex = 6
+        Me.Button7.Text = "Sonstiges"
+        Me.Button7.UseVisualStyleBackColor = True
         '
         'Button6
         '
@@ -109,15 +79,45 @@ Partial Class Edit_360
         Me.Button6.Text = "Dash Theme Edit"
         Me.Button6.UseVisualStyleBackColor = True
         '
-        'Button7
+        'Button5
         '
-        Me.Button7.ForeColor = System.Drawing.Color.Black
-        Me.Button7.Location = New System.Drawing.Point(16, 163)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(126, 23)
-        Me.Button7.TabIndex = 6
-        Me.Button7.Text = "Sonstiges"
-        Me.Button7.UseVisualStyleBackColor = True
+        Me.Button5.ForeColor = System.Drawing.Color.Black
+        Me.Button5.Location = New System.Drawing.Point(16, 105)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(126, 23)
+        Me.Button5.TabIndex = 4
+        Me.Button5.Text = "System Edit"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.ForeColor = System.Drawing.Color.Black
+        Me.Button4.Location = New System.Drawing.Point(16, 76)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(126, 23)
+        Me.Button4.TabIndex = 3
+        Me.Button4.Text = "Savegame Editoren"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.ForeColor = System.Drawing.Color.Black
+        Me.Button3.Location = New System.Drawing.Point(16, 47)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(126, 23)
+        Me.Button3.TabIndex = 2
+        Me.Button3.Text = "Profil Editor"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.ForeColor = System.Drawing.Color.Black
+        Me.Button2.Location = New System.Drawing.Point(16, 18)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(126, 23)
+        Me.Button2.TabIndex = 1
+        Me.Button2.Text = "Avatar Content Edit"
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'Edit_360
         '

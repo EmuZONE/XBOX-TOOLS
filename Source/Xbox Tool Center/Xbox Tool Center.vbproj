@@ -73,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="360SaveEdit.Designer.vb">
+      <DependentUpon>360SaveEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="360SaveEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ClassicJobs.Designer.vb">
       <DependentUpon>ClassicJobs.vb</DependentUpon>
     </Compile>
@@ -89,6 +95,12 @@
       <DependentUpon>Edit_360.vb</DependentUpon>
     </Compile>
     <Compile Include="Edit_360.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Flash.Designer.vb">
+      <DependentUpon>Flash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Flash.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main.vb">
@@ -115,6 +127,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="360SaveEdit.resx">
+      <DependentUpon>360SaveEdit.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ClassicJobs.resx">
       <DependentUpon>ClassicJobs.vb</DependentUpon>
     </EmbeddedResource>
@@ -123,6 +138,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Edit_360.resx">
       <DependentUpon>Edit_360.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Flash.resx">
+      <DependentUpon>Flash.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.vb</DependentUpon>
@@ -164,6 +182,7 @@
   <ItemGroup>
     <None Include="Resources\Xbox_logo.png" />
     <None Include="Resources\xbox11.png" />
+    <None Include="Resources\Button_Green.png" />
     <Content Include="xbox_360_elite_zoomed_icon.ico" />
     <Content Include="Xbox_logo_2012_cropped.svg.ico" />
   </ItemGroup>
