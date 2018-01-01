@@ -1,0 +1,8 @@
+K:\XBox Tools\AvPatch-0.4\source\bin\Debug\AvPatch.exe
+K:\XBox Tools\AvPatch-0.4\source\bin\Debug\AvPatch.pdb
+K:\XBox Tools\AvPatch-0.4\source\obj\Debug\AvPatch.csprojResolveAssemblyReference.cache
+K:\XBox Tools\AvPatch-0.4\source\obj\Debug\P6MCR_2.Form1.resources
+K:\XBox Tools\AvPatch-0.4\source\obj\Debug\AvPatch.Properties.Resources.resources
+K:\XBox Tools\AvPatch-0.4\source\obj\Debug\AvPatch.csproj.GenerateResource.Cache
+K:\XBox Tools\AvPatch-0.4\source\obj\Debug\AvPatch.exe
+K:\XBox Tools\AvPatch-0.4\source\obj\Debug\AvPatch.pdb
