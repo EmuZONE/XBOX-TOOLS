@@ -11,3 +11,5 @@ c:\users\yggdraz1l\documents\visual studio 2013\Projects\Xbox Tool Center\Xbox T
 c:\users\yggdraz1l\documents\visual studio 2013\Projects\Xbox Tool Center\Xbox Tool Center\obj\Debug\Xbox Tool Center.xml
 c:\users\yggdraz1l\documents\visual studio 2013\Projects\Xbox Tool Center\Xbox Tool Center\obj\Debug\Xbox Tool Center.pdb
 c:\users\yggdraz1l\documents\visual studio 2013\Projects\Xbox Tool Center\Xbox Tool Center\obj\Debug\Xbox_Tool_Center.Edit_360.resources
+C:\Users\YggDraz1l\Documents\Visual Studio 2013\Projects\Xbox Tool Center\Xbox Tool Center\obj\Debug\Xbox_Tool_Center._360SaveEdit.resources
+C:\Users\YggDraz1l\Documents\Visual Studio 2013\Projects\Xbox Tool Center\Xbox Tool Center\obj\Debug\Xbox_Tool_Center.Flash.resources
