@@ -15,6 +15,10 @@ XboxToolCenter
   Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
   Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
 </summary>
+</member><member name="P:Xbox_Tool_Center.My.Resources.Resources.Button_Green">
+	<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Xbox_Tool_Center.My.Resources.Resources.cooltext270620329015549">
 	<summary>
   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
