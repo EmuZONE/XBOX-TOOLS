@@ -127,6 +127,9 @@
   <data name="Xbox-360-Consoles-Infobox" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Xbox-360-Consoles-Infobox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Xbox_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Xbox_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="XboxLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\XboxLogo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,7 +139,7 @@
   <data name="xbox11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\xbox11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Xbox_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Xbox_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Button_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
