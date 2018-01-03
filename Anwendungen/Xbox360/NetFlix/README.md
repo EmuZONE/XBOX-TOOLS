@@ -5,5 +5,6 @@
 <p><b>Installation:</b></p>
 <br>
 New the folder (394707D1) to create the path hd / USB / content / 0000000000000000 / .
-Have fun
-- Do it at your own risk . 
+<p>Have fun</p>
+<br>
+<p>- Do it at your own risk . </p>
